@@ -2,9 +2,13 @@
 
 <div>
   <Navigation/>
+  <Header/>
+  <Skills/>
+  <Gallery/>
   <Footer/>
-</div>
 
+  
+</div>
 
 
 </template>
@@ -13,11 +17,17 @@
 <script>
 import Navigation from './components/Navigation.vue';
 import Footer from './components/Footer.vue';
+import Header from './components/Header.vue';
+import Skills from './components/Skills.vue';
+import Gallery from './components/Gallery.vue';
 
 export default {
   components:{
     Navigation,
-    Footer
+    Footer,
+    Header,
+    Skills,
+    Gallery
   }
 }
 </script>
